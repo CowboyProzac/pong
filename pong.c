@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 #define SCREEN_WIDTH 640	//window height
-#define SCREEN_HEIGHT 480	//window width
+#define SCREEN_HEIGHT 480	//window width  
 
 //function prototypes
 //initilise SDL
