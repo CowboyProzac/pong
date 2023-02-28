@@ -1,28 +1,28 @@
-# # PONG
+# PONG
 
-This is a recreation of the classic pong video game. Implemented in the C
-programming language, using SDL library to display graphics on the screen.
+Esta é uma recriação do clássico jogo de vídeo pong. Implementado no C
+linguagem de programação, usando a biblioteca SDL para exibir gráficos na tela.
 
-To compile you need to have SDL installed on your system and the header files
-available to you operating systems PATH environment variable
+Para compilar você precisa ter o SDL instalado em seu sistema e os arquivos de cabeçalho
+disponíveis para você sistemas operacionais PATH ambiente variável
 
 	gcc pong.c `sdl2-config --cflags --libs` -o pong
 
-### Update 2019
+### Atualização 2023
 
-This has been ported from SDL version 1 to work with SDL version 2. Also added is the ability to run the
-executable with the '-f' command line argument to run in fullscreen 
-(will stretch the 640 * 480 image your systems native display resolution)
+Isto foi portado da versão 1 do SDL para trabalhar com a versão 2 do SDL. Também foi adicionada a capacidade de executar o
+executável com o argumento '-f' de linha de comando para rodar em tela cheia 
+(irá esticar a imagem 640 * 480 resolução nativa do display de seus sistemas)
 
-I will take any feature requests like updating the AI or movement animation if there is any demand. Or 
-just clone the code and do it yourself. Enjoy!
+Aceitarei qualquer pedido de recursos como atualização da IA ou animação de movimento se houver alguma demanda. Ou 
+basta clonar o código e fazer você mesmo. Aproveite!
 
-## Controls
-* space bar to start a game
-* arrow keys for movement
-* ESC to exit game
+## Controles
+* barra de espaço para iniciar um jogo
+* teclas de seta para movimentação
+* ESC para sair do jogo
 
-## Images
-![title screen](http://i.imgur.com/radat.png)
+## Imagens
+![tela do título](http://i.imgur.com/radat.png)
 
-![game play](http://i.imgur.com/CZhqp.png)
+![jogo de jogo](http://i.imgur.com/CZhqp.png)
